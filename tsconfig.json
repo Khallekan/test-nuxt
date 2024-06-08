@@ -1,0 +1,12 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true,
+    "ignoreDeprecations": "5.0",
+    "suppressImplicitAnyIndexErrors": true,
+    "types": ["@pinia/nuxt", "@nuxtjs/tailwindcss"]
+  }
+}
